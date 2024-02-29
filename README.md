@@ -1,11 +1,1 @@
-The potato leaf image classification deep learning model is designed to analyze images of potato leaves and classify them into three categories: late blight, early blight, and healthy. This model leverages the power of convolutional neural networks (CNNs), a type of deep learning algorithm widely used in image recognition tasks.
-
-The model first preprocesses the input images, extracting relevant features and enhancing their quality to improve classification accuracy. It then passes the preprocessed images through a series of convolutional layers, which are responsible for learning hierarchical representations of the input data. These convolutional layers are followed by pooling layers, which help reduce the spatial dimensions of the feature maps while retaining important information.
-
-As the image features are progressively extracted and downsampled through the network, they are passed to fully connected layers, which perform the final classification based on the learned features. The output layer typically consists of three nodes, each representing one of the target classes (late blight, early blight, or healthy). The model utilizes a softmax activation function to convert the raw outputs into probabilities, indicating the likelihood of each class.
-
-During the training phase, the model learns to recognize patterns and characteristics specific to each class by adjusting the weights of the network using a suitable optimization algorithm (e.g., stochastic gradient descent) and a loss function (e.g., categorical cross-entropy) to minimize classification errors.
-
-To ensure the model's generalization capability, the dataset used for training is diverse and representative of real-world scenarios, including various lighting conditions, backgrounds, and leaf orientations. Additionally, techniques such as data augmentation may be employed to artificially increase the size and diversity of the training dataset, helping the model generalize better to unseen examples.
-
-Once trained, the model can accurately classify potato leaf images into late blight, early blight, or healthy categories, providing valuable insights to farmers and researchers for disease detection, monitoring, and management in potato crops.
+Will Be added Soon
